@@ -30,8 +30,8 @@ function Write-Theme {
 
     # write virtualenv
     if (Test-VirtualEnv) {
-        $prompt += Write-Prompt -Object 'inside env:' -ForegroundColor $sl.Colors.PromptForegroundColor
-        $prompt += Write-Prompt -Object "$(Get-VirtualEnvName) " -ForegroundColor $themeInfo.VirtualEnvForegroundColor
+        $prompt += Write-Prompt -Object ' (inside env:' -ForegroundColor $sl.Colors.PromptForegroundColor
+        $prompt += Write-Prompt -Object "$(Get-VirtualEnvName)) " -ForegroundColor $themeInfo.VirtualEnvForegroundColor
     }
 
     # check for elevated prompt
@@ -51,7 +51,7 @@ function Write-Theme {
         $prompt += Write-Prompt -Object "$($with.ToUpper()) " -BackgroundColor $sl.Colors.WithBackgroundColor -ForegroundColor $sl.Colors.WithForegroundColor
     }
 
-    $prompt += Write-Prompt -Object ' ' 
+    $prompt += Write-Prompt -Object ' '
     $prompt += Write-Prompt -Object $indicatorSymbol -ForegroundColor $foregroundColor
     $prompt += ' '
     $prompt

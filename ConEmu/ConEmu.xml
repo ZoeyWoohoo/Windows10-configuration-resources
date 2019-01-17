@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2019-01-15 21:55:16" build="190108">
+		<key name=".Vanilla" modified="2019-01-17 17:36:36" build="190108">
 			<value name="Language" type="string" data="en"/>
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
@@ -11,10 +11,10 @@
 			<value name="StartFarEditors" type="hex" data="00"/>
 			<value name="StartCreateDelay" type="ulong" data="100"/>
 			<value name="ColorTable00" type="dword" data="00000000"/>
-			<value name="ColorTable01" type="dword" data="00cc7a00"/>
-			<value name="ColorTable02" type="dword" data="00069a4e"/>
+			<value name="ColorTable01" type="dword" data="00ffbf00"/>
+			<value name="ColorTable02" type="dword" data="0076e600"/>
 			<value name="ColorTable03" type="dword" data="009ca62b"/>
-			<value name="ColorTable04" type="dword" data="00164bcb"/>
+			<value name="ColorTable04" type="dword" data="004417ff"/>
 			<value name="ColorTable05" type="dword" data="00069a4e"/>
 			<value name="ColorTable06" type="dword" data="0000cece"/>
 			<value name="ColorTable07" type="dword" data="0099917b"/>
@@ -22,7 +22,7 @@
 			<value name="ColorTable09" type="dword" data="00e9c416"/>
 			<value name="ColorTable10" type="dword" data="0040ff00"/>
 			<value name="ColorTable11" type="dword" data="00b6c032"/>
-			<value name="ColorTable12" type="dword" data="000000ff"/>
+			<value name="ColorTable12" type="dword" data="000000d5"/>
 			<value name="ColorTable13" type="dword" data="001e1e1e"/>
 			<value name="ColorTable14" type="dword" data="0000ffff"/>
 			<value name="ColorTable15" type="dword" data="00ffffff"/>
@@ -47,7 +47,7 @@
 			<value name="ClipboardFirstLinePosix" type="hex" data="00"/>
 			<value name="ClipboardClickPromptPosition" type="hex" data="02"/>
 			<value name="ClipboardDeleteLeftWord" type="hex" data="02"/>
-			<value name="TrueColorerSupport" type="hex" data="01"/>
+			<value name="TrueColorerSupport" type="hex" data="00"/>
 			<value name="VividColors" type="hex" data="01"/>
 			<value name="FadeInactive" type="hex" data="00"/>
 			<value name="FadeInactiveLow" type="hex" data="00"/>
@@ -135,11 +135,11 @@
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="618"/>
-			<value name="ConWnd Y" type="long" data="199"/>
+			<value name="ConWnd X" type="long" data="643"/>
+			<value name="ConWnd Y" type="long" data="233"/>
 			<value name="LastMonitor" type="string" data="0,0,1920,1080"/>
-			<value name="ConWnd Width" type="dword" data="00000061"/>
-			<value name="ConWnd Height" type="dword" data="00000028"/>
+			<value name="ConWnd Width" type="dword" data="0000006c"/>
+			<value name="ConWnd Height" type="dword" data="0000002c"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="Restore2ActiveMon" type="hex" data="00"/>
@@ -689,7 +689,7 @@
 			<value name="CmdLineHistory" type="multi">
 				<line data="powershell.exe"/>
 			</value>
+			<value name="AutoTrimSingleLine" type="hex" data="00"/>
 		</key>
 	</key>
 </key>
-
